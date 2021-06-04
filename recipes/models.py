@@ -15,3 +15,6 @@ class Ingredient(models.Model):
     quantity = models.FloatField()
 
     recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE, related_name="ingredients", null=True)
+
+    def __str__(self):
+        return self.name
