@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 django = "*"
 django-stdfields = "*"
+django-crispy-forms = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.9"
